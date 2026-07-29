@@ -211,7 +211,7 @@
     ],
     "release-it": {
         "github": {
-            "release": true,
+            "release": false,
             "tag": true,
             "commit": true,
             "push": true

@@ -210,16 +210,14 @@
         }
     ],
     "release-it": {
-        "git": {
-            "commit": true,
-            "tag": true,
-            "push": true
-        },
-        "github": {
-            "release": false
-        },
-        "npm": {
-            "publish": false
-        }
+    "github": {
+      "release": true,
+      "tag": true,
+      "commit": true,
+      "push": true
+    },
+    "npm": {
+      "publish": false
     }
+  }
 }
